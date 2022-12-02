@@ -1,6 +1,36 @@
+*{
+    font-family: sans-serif;
+} 
 body {
-    background-color: aquamarine;
+    color: #444;
+    border-top: solid green 10;
 }
-h1 {
-    color:#E03612 ;
+nav {
+    font-size: 18px;
 }
+
+article {
+    margin-bottom: 60px;
+}
+aside {
+    border-top: solid 5px #1098ad;
+    border-bottom: solid 5px #1098ad;
+    padding: 50px;
+    width: 500px;
+    background-color: #f7f7f7;
+}
+li:first-child {
+    font-style: italic;
+}
+li:last-child {
+    font-style: bold;
+}
+
+#copyright {
+    background-color: bisque;
+}
+
+.subtitle {
+    background-color: green;
+}
+
